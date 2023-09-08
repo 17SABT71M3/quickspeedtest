@@ -1,4 +1,8 @@
 ;RUN quickly; Save PreciousData!
+
+;Data costs money!! and even though u pay for it, it costs the 
+;environment which in turn batters the economy.
+;Yes these are not all direct costs or effects but rather INDIRECT!!
 Run A_ComSpec ' /c "echo off & cls & mode 20,10 & color 4f & echo Starting..&timeout 1 >NUL" '
 Sleep 1000
 Run A_ComSpec ' /c "ookla.bat" '
