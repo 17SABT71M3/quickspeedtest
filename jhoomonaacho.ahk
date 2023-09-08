@@ -5,7 +5,7 @@
 ;Yes these are not all direct costs or effects but rather INDIRECT!!
 ; This is a personal choice and an ETHOS
 ; that is not driven by fear or threat or painS
-; 
+help me god for your god and no one other that i need to wait for ((2>NUL))
 ; SO Yes, it's choice-driven not driven by pain or fear or threat!
 
 ;it Might be a good idea,to adjust the sleep cycles as per your needs!!
