@@ -1,0 +1,13 @@
+@echo off
+REM for /f "tokens=*" %i in ('speedtest.exe -f json') do set jsondata=%i 
+REM if "%1"=="skip" set jsons=Yes&goto skip
+REM set jsons=notbunty
+title ookla
+.\ookla-speedtest-1.2.0-win64\speedtest.exe 
+:skip
+REMif defined jsons if %jsons%==Yes powershell -c "$jsonData = Get-Content -Raw -Path 'data.json' | ConvertFrom-Json; $uploadSpeed = $jsonData.upload.bandwidth; $downloadSpeed = ($jsonData.download.bandwidth * 8) / ( 1 * 1000000);$uploadSpeed = ($jsonData.upload.bandwidth * 8) / ( 1 * 1000000); $timestamp = $jsonData.timestamp;Write-Host \"$downloadSpeed\"
+
+REM Write-Host 'Upload Speed: '\"$uploadSpeed mbps\"; Write-Host 'Download Speed: '\"$downloadSpeed\" mbps; Write-Host 'Timestamp: '$timestamp"  
+                                                           
+attrib +H data.json 
+
