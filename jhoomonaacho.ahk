@@ -1,3 +1,4 @@
+#Warn All, Off
 GOTO START
 ;RUN quickly; Save PreciousData!
 
@@ -6,12 +7,12 @@ GOTO START
 ;Yes these are not all direct costs or effects but rather INDIRECT!!
 ; This is a personal choice and an ETHOS
 ; that is not driven by fear or threat or painS
-help me god for your god and no one other that i need to wait for ((2>NUL))
+help_me_god_for_your_god_and_no_one_other_that_i_need_to_wait_for := 0
 ; SO Yes, it's choice-driven not driven by pain or fear or threat!
 
 ;it Might be a good idea,to adjust the sleep cycles as per your needs!!
 ;down below
-:START
+START:
 
 delayaftercommandprompt := 300
 delayafterooklabat := 300
