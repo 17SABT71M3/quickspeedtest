@@ -1,4 +1,6 @@
 @echo off
+REM The original bat file was written to capture the terminal output
+REM of the complete speed test and parse its json to get download / upload speed etc.
 REM for /f "tokens=*" %i in ('speedtest.exe -f json') do set jsondata=%i 
 REM if "%1"=="skip" set jsons=Yes&goto skip
 REM set jsons=notbunty
