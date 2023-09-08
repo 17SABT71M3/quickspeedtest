@@ -9,6 +9,7 @@
 ; SO Yes, it's choice-driven not driven by pain or fear or threat!
 
 ;it Might be a good idea,to adjust the sleep cycles as per your needs!!
+;down below
 
 delayaftercommandprompt := 300
 delayafterooklabat := 300
