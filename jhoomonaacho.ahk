@@ -1,3 +1,4 @@
+GOTO START
 ;RUN quickly; Save PreciousData!
 
 ;Data costs money!! and even though u pay for it, it costs the 
@@ -10,6 +11,7 @@ help me god for your god and no one other that i need to wait for ((2>NUL))
 
 ;it Might be a good idea,to adjust the sleep cycles as per your needs!!
 ;down below
+:START
 
 delayaftercommandprompt := 300
 delayafterooklabat := 300
