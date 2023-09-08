@@ -7,18 +7,22 @@
 ; that is not driven by fear or threat or painS
 ; 
 ; SO Yes, it's choice-driven not driven by pain or fear or threat!
-Run A_ComSpec ' /c "echo off & cls & mode 20,10 & color 4f & echo Starting..&timeout 1 >NUL" '
-Sleep 1000
+delayaftercommandprompt := 300
+delayafterooklabat := 300
+delaytocaptureoutput := 300
+
+Run A_ComSpec ' /c "echo off & cls & mode 20,10 & color 4f & echo Starting monitoring..&echo.Will kill task after 5seconds&timeout 5 >NUL&TASKKILL /FI "WINDOWTITLE eq ookla"" '
+Sleep delayaftercommandprompt
 Run A_ComSpec ' /c "ookla.bat" '
-Sleep 2000
+Sleep delayafterooklabat
 if WinExist("ookla")
 {
 WinMaximize
-Sleep 350
+Sleep 500
 MouseClick "left", 55, 233
-Sleep 200
+Sleep 300
 Send "{space}"
-Sleep 600
+Sleep delaytocaptureoutput
 }
 x := 0
 while x = 0
@@ -43,4 +47,3 @@ if WinExist("ookla")
 {
 WinClose
 }
-
