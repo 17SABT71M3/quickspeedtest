@@ -1,3 +1,4 @@
+;RUN quickly; Save PreciousData!
 Run A_ComSpec ' /c "echo off & cls & mode 20,10 & color 4f & echo Starting..&timeout 1 >NUL" '
 Sleep 1000
 Run A_ComSpec ' /c "ookla.bat" '
