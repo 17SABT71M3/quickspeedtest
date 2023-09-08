@@ -14,5 +14,5 @@ REM Write-Host 'Upload Speed: '\"$uploadSpeed mbps\"; Write-Host 'Download Speed
 REM attrib +H data.json 
 REM Thank yyou !!
 REM I appreciate your support!
-'JESUS CHRIST + IS THE GOD (((2>NUL)))
+'JESUS CHRIST + IS THE GOD  . . .
 
