@@ -7,6 +7,9 @@
 ; that is not driven by fear or threat or painS
 ; 
 ; SO Yes, it's choice-driven not driven by pain or fear or threat!
+
+;it Might be a good idea,to adjust the sleep cycles as per your needs!!
+
 delayaftercommandprompt := 300
 delayafterooklabat := 300
 delaytocaptureoutput := 300
