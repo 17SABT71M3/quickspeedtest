@@ -6,6 +6,9 @@ REM if "%1"=="skip" set jsons=Yes&goto skip
 REM set jsons=notbunty
 title ookla
 .\ookla-speedtest-1.2.0-win64\speedtest.exe & REM ------------------------PLEASE REPLACE THE PATH TO THE LEFT OF THE AMPERSAND, PLEASE USE DOUBLE QUOTES  IF THERE ARE SPACES.
+set /a errors=%errorlevel%
+if %errors%==3 cls & echo Open This Batch File in Notepad ^& Edit the Path to the Correct OOKLA exe & PAUSE >NUl
+if %errors%==9009 cls & echo Open This Batch File in Notepad ^& Edit the Path to the Correct OOKLA exe & PAUSE >NUl
 REM :skip
 REM if defined jsons if %jsons%==Yes powershell -c "$jsonData = Get-Content -Raw -Path 'data.json' | ConvertFrom-Json; $uploadSpeed = $jsonData.upload.bandwidth; $downloadSpeed = ($jsonData.download.bandwidth * 8) / ( 1 * 1000000);$uploadSpeed = ($jsonData.upload.bandwidth * 8) / ( 1 * 1000000); $timestamp = $jsonData.timestamp;Write-Host \"$downloadSpeed\"
 
@@ -15,4 +18,4 @@ REM attrib +H data.json
 REM Thank yyou !!
 REM I appreciate your support!
 'JESUS CHRIST + IS THE GOD  . . .
-
+echo I Apologize^! Dear God Forgive Them..
