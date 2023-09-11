@@ -34,7 +34,7 @@ Sleep delaytocaptureoutput
 x := 0
 while x = 0
 {
-if WinExist("ookla")
+if WinExist("ooklaJwVDfDwUYTm")
 {
 Sleep 350
 
