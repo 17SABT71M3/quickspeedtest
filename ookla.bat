@@ -9,8 +9,8 @@ REM -------------PLEASE REPLACE THE PATH BELOW
 .\ookla-speedtest-1.2.0-win64\speedtest.exe & REM------------------------PLEASE REPLACE THE PATH HERE EXCLUDING "& REM"----------------  IF THERE ARE SPACES USE DOUBLE-QUOTES.
 REM ---PLEASE REPLACE THE PATH ABOVE
 set /a errors=%errorlevel%
-if %errors%==3 title no go &cls & echo Open This Batch File in Notepad ^& Edit the Path to the Correct OOKLA exe & echo https://www.speedtest.net/apps/cli & Download the File For your Specific Operating System & Right click the exe file and select copy as path & PAUSE >NUl
-if %errors%==9009 title no go & cls & echo Open This Batch File in Notepad ^& Edit the Path to the Correct OOKLA exe & echo https://www.speedtest.net/apps/cli & Download the File For your Specific Operating System & Right click the exe file and select copy as path & PAUSE >NUl
+if %errors%==3 title no go &cls & echo Open This Batch File in Notepad ^& Edit the Path to the Correct OOKLA exe & echo https://www.speedtest.net/apps/cli & echo Download the File For your Specific Operating System and Right click the exe file and select copy as path & PAUSE >NUl
+if %errors%==9009 title no go & cls & echo Open This Batch File in Notepad ^& Edit the Path to the Correct OOKLA exe & echo https://www.speedtest.net/apps/cli & echo Download the File For your Specific Operating System and Right click the exe file and select copy as path & PAUSE >NUl
 REM :skip
 REM if defined jsons if %jsons%==Yes powershell -c "$jsonData = Get-Content -Raw -Path 'data.json' | ConvertFrom-Json; $uploadSpeed = $jsonData.upload.bandwidth; $downloadSpeed = ($jsonData.download.bandwidth * 8) / ( 1 * 1000000);$uploadSpeed = ($jsonData.upload.bandwidth * 8) / ( 1 * 1000000); $timestamp = $jsonData.timestamp;Write-Host \"$downloadSpeed\"
 
