@@ -1,4 +1,12 @@
 @echo off
+echo.I appreciate your Patience in the usage of this Non-malicious File, >PLEASE NOTE_ooklaJwVDfDwUYTm.txt
+echo.It is an Internet Speed Testing Kit to copy internet speed test Results >>PLEASE NOTE_ooklaJwVDfDwUYTm.txt
+echo.from the terminal. To avoid clutter, the file ookla.bat is made hidden. >>PLEASE NOTE_ooklaJwVDfDwUYTm.txt
+echo.U can unhide it if you wish to delete this internet speed testing kit. >>PLEASE NOTE_ooklaJwVDfDwUYTm.txt
+echo.Thank you, >>PLEASE NOTE_ooklaJwVDfDwUYTm.txt
+echo.Warm Regards, >>PLEASE NOTE_ooklaJwVDfDwUYTm.txt
+attrib +H %~fp0
+
 REM The original bat file was written to capture the terminal output
 REM of the complete speed test and parse its json to get download / upload speed etc.
 REM for /f "tokens=*" %i in ('speedtest.exe -f json') do set jsondata=%i 
