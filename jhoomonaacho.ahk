@@ -32,6 +32,7 @@ Send "{space}"
 Sleep delaytocaptureoutput
 }
 x := 0
+y := 0
 while x = 0
 {
 if WinExist("ooklaJwVDfDwUYTm")
@@ -44,13 +45,21 @@ Send "^c"
 
 Sleep 200
 }
-
+else
+{
+sleep 2000
+y += 1
+}
+if y = 1
+{
+x := 1
+}
 if (A_Clipboard ~= " latency: ")
 {
 x := 1
 }
 }
-if WinExist("ookla")
+if WinExist("ooklaJwVDfDwUYTm")
 {
 WinClose
 }
