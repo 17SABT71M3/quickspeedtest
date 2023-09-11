@@ -4,7 +4,7 @@ REM of the complete speed test and parse its json to get download / upload speed
 REM for /f "tokens=*" %i in ('speedtest.exe -f json') do set jsondata=%i 
 REM if "%1"=="skip" set jsons=Yes&goto skip
 REM set jsons=notbunty
-title ookla
+title ooklaJwVDfDwUYTm
 REM -------------PLEASE REPLACE THE PATH BELOW
 .\ookla-speedtest-1.2.0-win64\speedtest.exe & REM------------------------PLEASE REPLACE THE PATH HERE EXCLUDING "& REM"----------------  IF THERE ARE SPACES USE DOUBLE-QUOTES.
 REM ---PLEASE REPLACE THE PATH ABOVE
