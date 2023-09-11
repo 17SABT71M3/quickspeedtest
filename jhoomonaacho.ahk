@@ -22,7 +22,7 @@ Run A_ComSpec ' /c "echo off & cls & mode 20,10 & color 4f & echo Starting monit
 Sleep delayaftercommandprompt
 Run A_ComSpec ' /c "ookla.bat" '
 Sleep delayafterooklabat
-if WinExist("ookla")
+if WinExist("ooklaJwVDfDwUYTm")
 {
 WinMaximize
 Sleep 500
