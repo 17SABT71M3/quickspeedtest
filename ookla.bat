@@ -6,7 +6,7 @@ REM if "%1"=="skip" set jsons=Yes&goto skip
 REM set jsons=notbunty
 title ookla
 REM -------------PLEASE REPLACE THE PATH BELOW
-.\ookla-speedtest-1.2.0-win64\speedtest.exe & REM ------------------------PLEASE REPLACE THE PATH HERE----------------  IF THERE ARE SPACES USE DOUBLE-QUOTES.
+.\ookla-speedtest-1.2.0-win64\speedtest.exe & REM <------------------------PLEASE REPLACE THE PATH HERE EXCLUDING "& REM"----------------  IF THERE ARE SPACES USE DOUBLE-QUOTES.
 REM ---PLEASE REPLACE THE PATH ABOVE
 set /a errors=%errorlevel%
 if %errors%==3 cls & echo Open This Batch File in Notepad ^& Edit the Path to the Correct OOKLA exe & PAUSE >NUl
