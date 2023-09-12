@@ -1,10 +1,10 @@
 @echo off
 echo.I appreciate your Patience in the usage of the Non-malicious Speed testing kit, >"ooklaJwVDfDwUYTm.txt"
-echo.It is an Internet Speed Testing Kit to copy internet speed test Results >>>"ooklaJwVDfDwUYTm.txt"
-echo.from the terminal. To avoid clutter, the file ookla.bat is made hidden. >>>"ooklaJwVDfDwUYTm.txt"
-echo.U can unhide it if you wish to delete this internet speed testing kit. >>>"ooklaJwVDfDwUYTm.txt"
-echo.Thank you, >>>"ooklaJwVDfDwUYTm.txt"
-echo.Warm Regards, >>>"ooklaJwVDfDwUYTm.txt"
+echo.To avoid clutter, the file ookla.bat (out of 2 files) is made to be hidden. U can unhide it >>"ooklaJwVDfDwUYTm.txt"
+echo.from the command line using the command "attrib -H ookla.bat"  >>"ooklaJwVDfDwUYTm.txt"
+echo.This Internet Speed testing kit has 2 files. >>"ooklaJwVDfDwUYTm.txt"
+echo.Thank you, >>"ooklaJwVDfDwUYTm.txt"
+echo.Warm Regards, >>"ooklaJwVDfDwUYTm.txt"
 attrib +H "%~fp0"
 
 REM
