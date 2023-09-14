@@ -37,6 +37,7 @@ while x = 0
 {
 if WinExist("ooklaJwVDfDwUYTm")
 {
+WinActivate
 Sleep 350
 
 Send "^a"
