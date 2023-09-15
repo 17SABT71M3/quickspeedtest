@@ -15,7 +15,8 @@ help_me_god_for_your_god_and_no_one_other_that_i_need_to_wait_for := 0
 START:
 
 delayaftercommandprompt := 300
-delayafterooklabat := 360 ; you'll probably have to adjust this number if u feel the program closes without capturing increase it
+delayafterooklabat := 360 ; you'll probably have to adjust this number
+                          ;if u feel the program closes without capturing increase it
 delaytocaptureoutput := 300
 
 Run A_ComSpec ' /c "echo off & cls & mode 20,10 & color 4f & echo Starting monitoring..&echo.Will kill task after 5seconds&timeout 5 >NUL&TASKKILL /FI "WINDOWTITLE eq ookla"" '
