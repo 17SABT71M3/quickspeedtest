@@ -14,7 +14,7 @@ help_me_god_for_your_god_and_no_one_other_that_i_need_to_wait_for := 0
 ;down below
 START:
 
-delayaftercommandprompt := 300
+delayaftercommandprompt := 400
 delayafterooklabat := 360 ; you'll probably have to adjust this number
                           ;if u feel the program closes without capturing increase it
 delaytocaptureoutput := 300
