@@ -1,4 +1,8 @@
 @echo off
+REM -PLEASE REPLACE THE PATH BELOW use double quotes~
+set OPEN_OOKLA=.\ookla-speedtest-1.2.0-win64\speedtest.exe
+REM -PLEASE REPLACE THE PATH ABOVE use double quotes~
+
 REM initialise clip-board
 echo. | clip
 if EXIST "ooklaJwVDfDwUYTm.txt" goto MOVE_TO_NEXT
@@ -20,11 +24,9 @@ REM set jsons=notbunty
 
 title ooklaJwVDfDwUYTm
 
-REM -PLEASE REPLACE THE PATH BELOW use double quotes~
 
-.\ookla-speedtest-1.2.0-win64\speedtest.exe
+%open_ookla%
 
-REM -PLEASE REPLACE THE PATH ABOVE use double quotes~
 
 set errors=%errorlevel%
 if "%errors%"=="2" powershell -c "$timae = Get-Date -Format \"dd-MM HH:mm\";write-host $timae suspected socket error" >>ooklaJwVDfDwUYTm.txt
